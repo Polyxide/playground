@@ -3,12 +3,12 @@ def funk(rng, bet):
     min_bet = bet
     summary = 0
 
-    chanse_to_loose = 0.5
-
     for i in range(rng):
 
         summary += min_bet
         min_bet *= 2
+
+    chanse_to_loose = 0.5
 
     for x in range(rng - 1):
 
